@@ -1,21 +1,8 @@
-login {
-	position: absolute;
-	width: 100%;
-	max-width: 600px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .container {
 	max-width: 1170px;
 	margin: auto;
+	height: 11px;
 }
-
-img {
-	max-width: 100%;
-}
-
 .inbox_people {
 	background: #f8f8f8 none repeat scroll 0 0;
 	float: left;
@@ -117,7 +104,7 @@ img {
 }
 
 .inbox_chat {
-	height: 550px;
+	height: 350px;
 	overflow-y: scroll;
 }
 
@@ -217,7 +204,7 @@ img {
 }
 
 .msg_history {
-	height: 516px;
+	height: 350px;
 	overflow-y: auto;
 }
 
